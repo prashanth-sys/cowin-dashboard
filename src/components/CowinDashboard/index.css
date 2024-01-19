@@ -1,0 +1,45 @@
+/* Write your CSS here */
+/* Write your CSS here */
+.bg-container {
+  background-color: #161625;
+  background-size: cover;
+  min-height: 100vh;
+  padding: 9px;
+  padding-top: 9px;
+}
+.main-heading {
+  color: #cbd5e1;
+  font-family: 'Roboto';
+  margin-left: 45px;
+  font-size: 25px;
+  font-weight: 500;
+}
+.logo-container {
+  display: flex;
+  margin-left: 45px;
+}
+.logo-name {
+  color: #64c2a6;
+  font-family: 'Roboto';
+  font-size: 17px;
+}
+.logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 9px;
+}
+.card-container {
+  background-color: #1c1c2b;
+  width: 90%;
+  margin-left: 45px;
+  margin-right: 45px;
+  padding: 5px;
+  margin-bottom: 9px;
+}
+.vaccination {
+  color: #cbd5e1;
+  font-family: 'Roboto';
+  margin-left: 15px;
+  border-radius: 5px;
+  font-size: 15px;
+}
