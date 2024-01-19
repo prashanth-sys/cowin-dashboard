@@ -48,8 +48,8 @@ class CowinDashboard extends Component {
         vaccinationByGender: dataFromGender,
         apiStatus: apiStatusConstants.success,
       })
-    }
-    if (response.status === 401) {
+    } else {
+      console.log('error')
       this.setState({apiStatus: apiStatusConstants.failure})
     }
   }

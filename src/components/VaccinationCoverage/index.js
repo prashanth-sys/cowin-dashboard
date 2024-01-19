@@ -18,7 +18,7 @@ const VaccinationCoverage = props => {
       <h1 className="vaccination">Vaccination Coverage</h1>
       <BarChart
         width={1000}
-        height={400}
+        height={300}
         data={vaccination}
         margin={{
           top: 5,

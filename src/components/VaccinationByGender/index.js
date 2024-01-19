@@ -24,7 +24,12 @@ const VaccinationByGender = props => {
             <Cell name="Female" fill="#2d87bb" />
             <Cell name="Others" fill="#2cc6c6" />
           </Pie>
-          <Legend layout="vertical" verticalAlign="middle" align="right" />
+          <Legend
+            layout="vertical"
+            verticalAlign="middle"
+            align="right"
+            font-family="Roboto"
+          />
         </PieChart>
       </ResponsiveContainer>
     </div>
